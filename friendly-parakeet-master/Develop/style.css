@@ -59,7 +59,7 @@ header {
 }
 
 .card-footer::before {
-  content: " ";
+  content: flex-start;
   display: block;
   width: 100%;
   background: #e7e9eb;
@@ -67,8 +67,8 @@ header {
 }
 
 .card-footer::after {
-  content: " ";
-  display: block;
+  content: flex;
+  display: show;
   clear: both;
 }
 
